@@ -8,6 +8,7 @@ import './globals.css';
 
 const MyApp: FC<AppProps> = ({Component, pageProps}) => {
 
+  console.log("Sadfd")
   return (
     <StyleSheetManager shouldForwardProp={prop => isPropValid(prop)}>
       <Head>
